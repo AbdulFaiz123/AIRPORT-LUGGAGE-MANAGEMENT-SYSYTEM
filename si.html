@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="css/reg.css">
+<form action="adddata.php" method="POST">
+  <div class="container">
+    <h1 ALIGN="center">Register</h1>
+    <p ALIGN="center">Please fill in this form to create an account.</p>
+    <hr>
+    <form action="adddata.php" method="POST">
+    <div class="m">
+        <label for="id"><b>Admin ID</b></label>
+        <input type="text" placeholder="Enter your ID" name="id" required></br>
+      <label for="fname"><b>Enter your full name</b></label>
+      <input type="text" placeholder="Enter your Full name" name="fname" required></br>  
+      <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter your username" name="uname" required></br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter your Password" name="psw" required></br>
+
+<button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="admin.html">Sign in</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
